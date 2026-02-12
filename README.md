@@ -1,7 +1,15 @@
-# Blended-Labs
+## EXPERMENT 1:Cloud Account Setup and Services Overview in AWS
+## NAME: Thejaswini D
+## REGISTER NO.: 212223110059
+## DATE : 12.02.2026
+
+## AIM:
+To create an cloud account in AWS and to explore all of its services. 
+
 ## PROCEDURE:
 ### Task 1: Explore the Users and Groups
 1. Log in to the AWS Management Console.
+
 2. In the search box to the right of Services, type IAM and select it.
 3. In the left navigation pane, choose Users.
 The following IAM users are available:
@@ -62,6 +70,7 @@ AmazonS3ReadOnlyAccess
 ### Task 2: Add Users to Groups
 Add user-1 to S3-Support
 23. Go to User groups.
+
 24. Select S3-Support.
 25. Click the Users tab.
 26. Click Add users.
@@ -70,12 +79,14 @@ Add user-1 to S3-Support
 
 Add user-2 to EC2-Support
 28. Select EC2-Support group.
+
 29. Click Add users.
 30. Select user-2 and click Add users.
     user-2 is now added to EC2-Support group.
 
 Add user-3 to EC2-Admin    
 31. Select EC2-Admin group.
+
 32. Click Add users.
 33. Select user-3 and click Add users.
     user-3 is now added to EC2-Admin group.
@@ -84,6 +95,7 @@ Add user-3 to EC2-Admin
 ### Task 3: Sign-In and Test Users
 
 35. In IAM, select Dashboard.
+
 36. Copy the IAM Sign-in URL.
 37. Open a Private/Incognito browser window.
 38. Paste the Sign-in URL into the address bar.
@@ -92,6 +104,7 @@ Test user-1 (S3 Support)
 39. Login using:
     IAM user name: user-1
     Password: Lab-Password1
+
 40. Open S3 service.
 41. Verify that buckets can be viewed.
 42. Open EC2 service.
@@ -103,6 +116,7 @@ Test user-2 (EC2 Support)
 43. Login using:
     IAM user name: user-2
     Password: Lab-Password2
+
 44. Open EC2 → Instances.
 45. Select instance named LabHost.
 46. Attempt to Stop the instance.
@@ -117,6 +131,7 @@ Test user-3 (EC2 Admin)
 48. Login using:
     IAM user name: user-3
     Password: Lab-Password3
+
 49. Open EC2 → Instances.
 50. Select instance LabHost.
 51. Click Stop instance.
@@ -126,6 +141,12 @@ Instance successfully enters stopping state.
 53. Close the private browser window.
 
 ### Output:
+
+<img width="1919" height="861" alt="image" src="https://github.com/user-attachments/assets/a61cc295-1d24-4771-957e-d99be6372d06" />
+
+<img width="1899" height="864" alt="Screenshot 2026-02-06 082227" src="https://github.com/user-attachments/assets/10f67903-4d18-4f83-9c12-459daef198f8" />
+
+<img width="1900" height="867" alt="Screenshot 2026-02-06 084700" src="https://github.com/user-attachments/assets/02d5d184-31eb-4b83-8043-1b25c9bef3ac" />
 
 ### Result:
 Thus, IAM Users and Groups were successfully explored in AWS. Role-based access control was implemented by assigning users to appropriate groups, and permissions were verified by testing access to Amazon S3 and Amazon EC2 services.
